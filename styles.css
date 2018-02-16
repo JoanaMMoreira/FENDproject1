@@ -1,0 +1,42 @@
+* {
+    font-family: sans-serif;
+}
+
+.card-image {
+    width: 300px;
+    margin-bottom: 1em;
+    border-radius: 25px;
+}
+
+p:first-of-type {
+    font-style: italic;
+}
+
+.fact-label {
+    font-weight: bold;
+}
+
+.factsList {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.largeBorder,
+.smallBorder {
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    padding: 1em;
+}
+
+.smallBorder {
+    background-color: #FFF;
+}
+
+.largeBorder {
+    width: 300px;
+    background: rgb(254, 252, 234);
+    background: -moz-linear-gradient(45deg, rgba(254, 252, 234, 1) 0%, rgba(241, 218, 54, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(254, 252, 234, 1) 0%, rgba(241, 218, 54, 1) 100%);
+    background: linear-gradient(45deg, rgba(254, 252, 234, 1) 0%, rgba(241, 218, 54, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36', GradientType=1);
+}
